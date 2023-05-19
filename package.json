@@ -1,0 +1,61 @@
+{
+  "name": "medinflow-admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.18.7",
+    "axios": "^0.26.0",
+    "ckeditor4-react": "^2.1.1",
+    "csv-parse": "^5.0.4",
+    "d3": "^7.3.0",
+    "env-cmd": "^10.1.0",
+    "html-react-parser": "^1.4.8",
+    "jwt-decode": "^3.1.2",
+    "katex": "^0.15.2",
+    "lodash": "^4.17.21",
+    "moment-lite": "^0.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-easy-panzoom": "^0.4.4",
+    "react-highlight-words": "^0.17.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0",
+    "react-swipeable-bottom-sheet": "^1.1.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "remove-inline-styles": "^1.0.1",
+    "source-map-explorer": "^2.5.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start:development": "env-cmd -f .env.development react-scripts start",
+    "start:production": "env-cmd -f .env.production react-scripts start",
+    "build:development": "env-cmd -f .env.development react-scripts build",
+    "build:production": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

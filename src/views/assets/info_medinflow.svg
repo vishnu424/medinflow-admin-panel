@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 2 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-237.000000, -190.000000)">
+            <g id="Group-2-Copy-2" filter="url(#filter-1)" transform="translate(238.000000, 190.000000)">
+                <circle id="Oval-Copy" fill="#70B5EF" cx="5.7" cy="5.7" r="5.7"></circle>
+                <g id="info" transform="translate(4.260000, 1.920000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M0.685816863,7.55832462 C0.462886547,7.57576571 0.252514505,7.45520072 0.124273584,7.28213449 C-0.00430222411,7.10908803 -0.0351118595,6.88763364 0.0412215238,6.68895946 L1.07826297,3.99484499 C1.03598344,3.89043283 0.871580491,3.83822675 0.585054121,3.83822675 C0.298527751,3.83822675 0.103519838,3.89043283 3.03808571e-05,3.99484499 C-0.00089055933,3.43346733 0.44480263,3.02069487 1.01484368,2.86228152 C1.28687685,2.78666392 1.79370791,2.68318408 2.0573689,2.69904321 C2.21533107,2.70853496 2.49067126,2.80216711 2.61891218,2.97523334 C2.74748799,3.1482798 2.77829762,3.36973419 2.70196424,3.56840837 L1.6649228,6.26252284 C1.73109237,6.37205793 1.90663299,6.42682548 2.19154467,6.42682548 C2.47645634,6.42682548 2.66021495,6.37205793 2.74282049,6.26252284 C2.7430298,6.82324794 2.31395539,7.30194851 1.72846767,7.39413713 C1.46782067,7.43518895 0.949184827,7.53771962 0.685816863,7.55832462 Z M1.86375,2.06131258 C1.26934072,2.06131258 0.7875,1.5998214 0.7875,1.03065629 C0.7875,0.461428266 1.26934072,0 1.86375,0 C2.45815928,0 2.94,0.461428266 2.94,1.03065629 C2.94,1.59985286 2.45819213,2.06131258 1.86375,2.06131258 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

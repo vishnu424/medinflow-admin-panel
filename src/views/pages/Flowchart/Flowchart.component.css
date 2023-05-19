@@ -1,0 +1,257 @@
+.container {
+  margin: 20px;
+}
+.container h2 {
+  margin: 10px auto;
+}
+
+.container h4 {
+  margin: 0px;
+}
+.line {
+  height: 5px;
+  border-bottom: 1px dashed var(--text-color);
+}
+
+.flowchart-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  /* overflow:scroll; */
+}
+
+.flowchart-button-rounded {
+  font-size: 1em;
+  font-weight: 800;
+  padding: 12px 30px;
+  color: #000000;
+  border-radius: 0.5em;
+  min-width: 200px;
+  width: 40%;
+  margin: auto;
+  border-radius: 5em;
+  box-shadow: 0 6px 0 #d6958e, 0 15px 20px rgba(0, 0, 0, 0.35);
+  transition: all 0.05s;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.flowchart-button-rounded:focus {
+  outline: none;
+}
+.flowchart-button-rounded:active {
+  transform: translate(0, 6px);
+}
+.flowchart-button-rounded:active,
+.flowchart-button-rounded:focus {
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flowchart-button-diamond {
+  font-size: 1em;
+  font-weight: 800;
+  color: #000000;
+  border-radius: 0.5em;
+  background: #fff;
+  text-align: center;
+  transform: rotate(45deg);
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  margin: 80px auto;
+  box-shadow: 4px 4px 0 #ce9e2f, 0 15px 20px rgba(0, 0, 0, 0.35);
+  transition: all 0.05s;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.flowchart-button-diamond:focus {
+  outline: none;
+}
+
+.flowchart-button-diamond:active {
+  transform: translate(0, 4px) rotate(45deg);
+}
+.flowchart-button-diamond:active,
+.flowchart-button-diamond:focus {
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-name {
+  color: #333;
+  display: table-cell;
+  height: 60px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  width: 60px;
+}
+
+.flowchart-button-rectangle {
+  font-size: 1em;
+  font-weight: 800;
+  padding: 15px 20px;
+  color: #000000;
+  border-radius: 0.5em;
+  width: 150px;
+  box-shadow: 0px 4px 0 #74c5d8, 0 15px 20px rgba(0, 0, 0, 0.35);
+  transition: all 0.05s;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.flowchart-button-rectangle:focus {
+  outline: none;
+}
+
+.flowchart-button-rectangle:focus {
+  outline: none;
+}
+.flowchart-button-rectangle:active {
+  transform: translate(0, 6px);
+}
+.flowchart-button-rectangle:active,
+.flowchart-button-rectangle:focus {
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px -2px 15px #c4c4c4;
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  transition: ease-in 0.2s;
+  /* opacity: 0;
+    visibility: hidden; */
+  /* transform: translate(0,100%); */
+}
+
+.modalData {
+  margin: 10px 20px;
+}
+.modalData img {
+  width: 100%;
+}
+.modalData iframe {
+  min-height: 200px;
+  width: 100%;
+}
+
+.hidden {
+  bottom: -320px !important;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+.fullscreen {
+  height: 90%;
+}
+.modalContent {
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+  font-size: 0.8em;
+  color: #999999;
+  padding-top: 10px;
+}
+.fullscreen .modalContent {
+  height: 450px;
+  overflow: scroll;
+}
+.read-more {
+  font-weight: 500;
+  position: absolute;
+  right: 20;
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+.fullscreen .read-more {
+  display: none;
+}
+
+.side-bar {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  left: 0vw;
+  top: 0vw;
+  bottom: 0vw;
+  z-index: 50;
+  transition: ease-in 0.2s;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.side-bar-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+li {
+  transition: ease-in 0.1s;
+}
+li:hover {
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 300px) {
+  .modalData {
+    margin: 40px 20px 20px 20px;
+  }
+  .modal {
+    right: 0;
+    width: 30%;
+    height: 100%;
+    margin-right: 0;
+    overflow-y: scroll;
+  }
+  .modalContent {
+    height: 74%;
+    overflow-y: scroll;
+  }
+  .fullscreen .modalContent {
+    height: 85%;
+    overflow-y: scroll;
+  }
+  li:hover {
+    padding-right: none;
+  }
+  .side-bar-visible {
+    width: 27%;
+  }
+  .side-bar {
+    right: 0vw;
+    left: auto;
+    box-shadow: 0px -2px 15px #c4c4c4;
+  }
+}

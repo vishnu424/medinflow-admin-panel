@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-17.000000, -323.000000)">
+            <g id="Group-3-Copy" filter="url(#filter-1)" transform="translate(18.000000, 323.000000)">
+                <circle id="Oval" fill="#EF7970" cx="5.7" cy="5.7" r="5.7"></circle>
+                <g id="Group" transform="translate(2.100000, 2.220000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5">
+                    <rect id="Rectangle" x="1.14" y="0" width="4.92" height="2.34" rx="0.6"></rect>
+                    <path d="M3.62,2.52 L3.62,3.3" id="Line" stroke-linecap="square"></path>
+                    <path d="M1.58,4.02 L1.58,4.8" id="Line-Copy" stroke-linecap="square"></path>
+                    <path d="M5.66,4.02 L5.66,4.8" id="Line-Copy-2" stroke-linecap="square"></path>
+                    <path d="M1.56,3.68 L5.64,3.68" id="Line-3" stroke-linecap="square"></path>
+                    <ellipse id="Oval" cx="5.67" cy="5.91" rx="1.47" ry="1"></ellipse>
+                    <path d="M1.66395016,4.87353263 L2.91226232,5.75656809 C2.99342068,5.81397818 3.01267246,5.9263101 2.95526238,6.00746846 C2.94347147,6.02413679 2.92893066,6.03867761 2.91226232,6.05046851 L1.66395016,6.93350398 C1.60165526,6.97757036 1.51834474,6.97757036 1.45604984,6.93350398 L0.207737677,6.05046851 C0.126579317,5.99305843 0.107327538,5.88072651 0.164737625,5.79956814 C0.176528529,5.78289981 0.191069344,5.768359 0.207737677,5.75656809 L1.45604984,4.87353263 C1.51834474,4.82946624 1.60165526,4.82946624 1.66395016,4.87353263 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

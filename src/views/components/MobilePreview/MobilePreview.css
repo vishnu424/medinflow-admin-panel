@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* The device with borders */
+.smartphone {
+  position: relative;
+  min-width: 360px;
+  min-height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  padding: 20px;
+  width: 320px;
+  min-width: 320px;
+  height: 600px;
+  min-height: 600px;
+  background: white;
+  overflow: scroll;
+  word-wrap: break-word;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e3e3e3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+
+.smartphone {
+  font-family: "Lato", serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: 0% !important;
+  color: #444444 !important;
+  font-weight: normal;
+  max-width: 100% !important;
+  -webkit-user-select: none !important;
+}
+
+.dark {
+  background: #343b52 !important;
+  color: #cccccc;
+}
+
+.smartphone table {
+  border-collapse: collapse;
+  margin: auto;
+  overflow: visible !important;
+  min-width: 100% !important;
+  max-width: 98% !important;
+  margin: 5% 0%;
+}
+
+.smartphone table td,
+.smartphone table th {
+  border: 1px solid rgba(0, 85, 182, 0.055) !important;
+  padding: 5px !important;
+}
+
+.smartphone table tr:nth-child(even) {
+  background-color: rgba(0, 85, 182, 0.055) !important;
+}
+
+.smartphone table tr:first-child td {
+  background-color: rgba(9, 101, 207, 0.548) !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 5px !important;
+}
+
+.smartphone ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 15px;
+}
+
+.smartphone td > p > img {
+  width: 100%;
+}
+
+.smartphone .image-full {
+  width: 300px !important;
+  margin: auto !important;
+}
+
+.smartphone ul li {
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.smartphone ol li {
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.smartphone li {
+  line-height: 2em;
+}
+
+.smartphone p {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+.smartphone p > img {
+  width: 100% !important;
+  height: auto !important;
+}
+.smartphone img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+hr {
+  border: 1px dashed #e3e3e3;
+}
+
+/* Darkmode theme starts here*/
+
+.dark table {
+  border-collapse: collapse;
+  margin: auto;
+  overflow: visible !important;
+  min-width: 100% !important;
+  max-width: 98% !important;
+  margin: 5% 0%;
+}
+
+.dark table td,
+.dark table th {
+  border: 1px solid rgba(0, 85, 182, 0.055) !important;
+  padding: 5px !important;
+}
+
+.dark table tr:nth-child(even) {
+  background-color: rgba(0, 85, 182, 0.055) !important;
+}
+
+.dark table tr:first-child td {
+  background-color: rgba(0, 7, 15, 0.548) !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 5px !important;
+}
+
+.dark ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 15px;
+}
+
+.dark td > p > img {
+  width: 100%;
+}
+
+.dark .image-full {
+  width: 300px !important;
+  margin: auto !important;
+}
+
+.dark ul li {
+  line-height: 1.6em;
+}
+
+.dark ol li {
+  line-height: 1.6em;
+}
+
+.dark li {
+  line-height: 2em;
+  padding-bottom: 15px;
+}
+
+.dark p {
+  font-size: 16px !important;
+  line-height: 1.4em;
+}
+.dark p > img {
+  width: 100% !important;
+  height: auto !important;
+}
+.dark img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Darkmode theme ends here*/
+
+.toggle-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.toggle-slot {
+  position: relative;
+  height: 5em;
+  width: 10em;
+  border: 2.5px solid #e4e7ec;
+  border-radius: 5em;
+  background-color: white;
+  box-shadow: 0px 5px 12.5px #e4e7ec;
+  transition: background-color 250ms;
+}
+
+.toggle-checkbox:checked ~ .toggle-slot {
+  background-color: #374151;
+}
+
+.toggle-button {
+  transform: translate(5.85em, 0.7em);
+  position: absolute;
+  height: 3.25em;
+  width: 3.25em;
+  border-radius: 50%;
+  background-color: #ffeccf;
+  box-shadow: inset 0px 0px 0px 0.75em #ffbb52;
+  transition: background-color 250ms, border-color 250ms,
+    transform 500ms cubic-bezier(0.26, 2, 0.46, 0.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .toggle-button {
+  background-color: #485367;
+  box-shadow: inset 0px 0px 0px 0.75em white;
+  transform: translate(0.7em, 0.7em);
+}
+
+.sun-icon {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  color: #ffbb52;
+}
+
+.sun-icon-wrapper {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  opacity: 1;
+  transform: translate(1em, 1em) rotate(15deg);
+  transform-origin: 50% 50%;
+  transition: opacity 150ms, transform 500ms cubic-bezier(0.26, 2, 0.46, 0.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .sun-icon-wrapper {
+  opacity: 0;
+  transform: translate(3em, 0.7em) rotate(0deg);
+}
+
+.moon-icon {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  color: white;
+}
+
+.moon-icon-wrapper {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  opacity: 0;
+  transform: translate(5.5em, 0.7em) rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: opacity 150ms, transform 500ms cubic-bezier(0.26, 2.5, 0.46, 0.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .moon-icon-wrapper {
+  opacity: 1;
+  transform: translate(6em, 0.7em) rotate(-15deg);
+}

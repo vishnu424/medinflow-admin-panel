@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: local("Avenir Next Condensed"),
+    url("../../fonts/AvenirNextCondensed-Regular.ttf") format("truetype");
+}
+.circle {
+  rx: 50px;
+  ry: 50px;
+}
+
+.square {
+  rx: 5px;
+  ry: 5px;
+}
+
+.button:focus {
+  outline: none;
+}
+.button:active {
+  transform: translate(0, 6px);
+}
+.button:active,
+.button:focus {
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
+}
